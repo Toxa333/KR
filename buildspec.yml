@@ -26,4 +26,4 @@ phases:
       - echo Build completed on `date`
       - docker tag my-nodejs-app:latest 484907488753.dkr.ecr.us-east-1.amazonaws.com/repositorykr/my-nodejs-app:latest
       - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 484907488753.dkr.ecr.us-east-1.amazonaws.com
-      - docker push 484907488753.dkr.ecr.us-east-1.amazonaws.com/repositorykr/my-nodejs-app:latest
+      - docker push 484907488753.dkr.ecr.us-east-1.amazonaws.com/my-nodejs-app:latest

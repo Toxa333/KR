@@ -4,6 +4,13 @@ version: 0.2
 #   install:
 #     runtime-versions:
 #       docker: 18
+phases:
+  install:
+    commands:
+      - echo "Check aws and git version"
+      - aws --version
+      - git --version 
+  
   build:
     commands:
       - echo Build started on `date`

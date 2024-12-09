@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /build/KRDeploy.tar
-    destination: /tmp/KRDeploy/
+  - source: /build/repositorykr.tar
+    destination: /tmp/repositorykr/
 hooks:
   AfterInstall:
     - location: scripts/after_install.sh

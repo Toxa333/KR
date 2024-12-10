@@ -5,5 +5,5 @@ files:
     destination: /tmp/KRDeploy/
 hooks:
   AfterInstall:
-    - location: scripts/after_install.sh
+    - location: skripts/after_install.sh
       timeout: 180

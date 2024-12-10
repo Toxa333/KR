@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: app
-    destination: /tmp/KRDeploy/
+    destination: /opt/KRDeploy/
 hooks:
   AfterInstall:
     - location: scripts/after_install.sh
